@@ -49,7 +49,7 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe all cards and timeline items
 document.querySelectorAll(
-    '.project-card, .education-card, .involvement-card, .venture-card, .timeline-content'
+    '.project-card, .education-card, .involvement-card, .timeline-content'
 ).forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
@@ -93,7 +93,6 @@ const contactInfo = {
     email: 'your.email@example.com',
     linkedin: 'https://linkedin.com/in/yourprofile',
     github: 'https://github.com/isaacoh896',
-    twitter: 'https://twitter.com/yourhandle'
 };
 
 // You can use this data to dynamically populate contact links if needed
